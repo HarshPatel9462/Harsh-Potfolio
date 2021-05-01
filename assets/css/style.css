@@ -1,8 +1,6 @@
 /**
-* Template Name: iPortfolio - v3.1.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+* Template Name: Harsh Portfolio - v1.0
+* Author: Harsh Patel
 */
 
 /*--------------------------------------------------------------
@@ -213,7 +211,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/portfolio-banner.jpg") top center;
   background-size: cover;
 }
 
@@ -227,11 +225,20 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   z-index: 1;
 }
-
+.port-sec{
+    background-color: #149ddd;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    width: 225px;
+}
 #hero .hero-container {
   position: relative;
   z-index: 2;
-  min-width: 300px;
+  min-width: 600px;
+    background-color: #000;
+    opacity: 0.7;
+    padding: 30px;
 }
 
 #hero h1 {
